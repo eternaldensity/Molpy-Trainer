@@ -13,6 +13,9 @@ For personal amusement only.
 ## Changelog
 
 ### 0.005
+- more molpy names
+
+### 0.005
 - some molpy names
 - django hosting link
 
@@ -81,35 +84,53 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Chupamolpy 
 - Deerpy
 - Dolphy
+- Facebug
+- Flutterbee
 - Gatorraptor
 - Guineamolp
 - Hamply
 - Kangamolp
 - Keyboard
 - Lizmolp
+- Manapy
 - Meowlpy
 - Molpanzee
 - Molpanda
 - Molpbear
+- Molpicoot
+- Molephant
+- Molmot
 - Molpguin
+- Molphish
 - Molpidillo
 - Molpouse
+- Molpossum
 - Molpy
 - Molpydile
+- Molpyguana
 - Molpysnake
 - Moltise
+- Moopy
 - Murtle
+- Orcaraptor
 - Owlpy
 - Pricklymolp
+- Quackmolpy
 - Raptor
 - Raptorcat
 - Raptorshark
 - Rabtor
+- Rhrinocerolpy
 - Ribbit
+- Sealpy
+- Slothpy
 - Sparrow-raptor
 - Squirpy
+- Viperraptor
+- Wallapy
 - Waterottermolpy
 - Wolpy
+- Woolpy
 - Zemolp
 
 ## Bag type list
