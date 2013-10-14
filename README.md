@@ -12,6 +12,11 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.003
+- More brainstorming
+- Links to Django stuff
+- Some more Molpies
+
 ### 0.002
 - Design Planning and Molpy List
 
@@ -49,18 +54,26 @@ Pingpong balls will be involved somehow.
 
 And grapevines. Lots of grapevines. At a 12:2 molpy:grapevine ratio
 
+Could set it in the Netherlands: http://what-if.xkcd.com/imgs/a/53/drain_nl.png
+
+There won't be so much javascript since the game logic will be carried out serverside.
+
+For the server scripting, I'll use Python. It looks like Django is worth using. (With Gunicorn and NGINX)
+
 ## Molpy Name List
 -Beesnake
 -Chirpy
 -Chupamolpy 
+-Guineamolp
 -Hamply
+-Kangamolp
 -Keyboard
 -Lizmolp
 -Meowlpy
 -Molpy
 -Molpbear
 -Molpguin
--Molpydillo
+-Molpidillo
 -Molpysnake
 -Owlpy
 -Pricklymolp
@@ -73,3 +86,13 @@ And grapevines. Lots of grapevines. At a 12:2 molpy:grapevine ratio
 -Squirpy
 -Waterottermolpy
 -Wolpy
+-Zemolp
+
+## Useful links
+
+### Python Templating links
+
+- https://docs.djangoproject.com/en/1.5/topics/templates/
+- https://docs.djangoproject.com/en/1.5/topics/db/models/
+- https://medium.com/cs-math/f29f6080c131 lots of useful info
+- http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ could be handy
