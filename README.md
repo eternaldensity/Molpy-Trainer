@@ -79,11 +79,14 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Bearraptor
 - Beesnake
 - Camolpy (camel)
+- Centimolpy
 - Chipmonpy
 - Chirpy
 - Chupamolpy 
 - Deerpy
 - Dolphy
+- Dragonflopy
+- Ecolipy (E. coli)
 - Facebug
 - Flutterbee
 - Foxmolpy
@@ -96,11 +99,13 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Lizmolp
 - Manapy (manatee)
 - Meowlpy
+- Millimolpy
 - Molpanzee
 - Molpanda
 - Molpbear
 - Molpicoot
 - Molephant
+- Molmmoth
 - Molmot (marmot)
 - Molpguin
 - Molphish
@@ -131,15 +136,19 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Rhrinocerolpy
 - Ribbit
 - Sealpy
+- Seawolpy
+- Slowwormolpy
 - Skunkpy
 - Slothpy
 - Sparrow-raptor
 - Squirpy
+- Trilobolpy
 - Viperraptor
 - Wallapy
 - Waterottermolpy
 - Wolpy (dog)
 - Woolpy (sheep)
+- Wormolpy
 - Zemolp (zebra)
 
 ## Bag type list
