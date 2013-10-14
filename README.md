@@ -12,6 +12,10 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.005
+- some molpy names
+- django hosting link
+
 ### 0.004
 - Bag list
 - start of object model
@@ -67,42 +71,46 @@ There won't be so much javascript since the game logic will be carried out serve
 For the server scripting, I'll use Python. It looks like Django is worth using. (With postgresql, Gunicorn and NGINX)
 
 ## Molpy Name List
--Antelopey
--Badgermolp
--Bearraptor
--Beesnake
--Camolpy
--Chirpy
--Chupamolpy 
--Deermolpy
--Dolphy
--Gatorraptor
--Guineamolp
--Hamply
--Kangamolp
--Keyboard
--Lizmolp
--Meowlpy
--Molpanzee
--Molpanda
--Molpbear
--Molpguin
--Molpidillo
--Molpy
--Molpydile
--Molpysnake
--Owlpy
--Pricklymolp
--Raptor
--Raptorcat
--Raptorshark
--Rabtor
--Ribbit
--Sparrow-raptor
--Squirpy
--Waterottermolpy
--Wolpy
--Zemolp
+- Antelopey
+- Badgermolp
+- Bearraptor
+- Beesnake
+- Camolpy
+- Chipmonpy
+- Chirpy
+- Chupamolpy 
+- Deerpy
+- Dolphy
+- Gatorraptor
+- Guineamolp
+- Hamply
+- Kangamolp
+- Keyboard
+- Lizmolp
+- Meowlpy
+- Molpanzee
+- Molpanda
+- Molpbear
+- Molpguin
+- Molpidillo
+- Molpouse
+- Molpy
+- Molpydile
+- Molpysnake
+- Moltise
+- Murtle
+- Owlpy
+- Pricklymolp
+- Raptor
+- Raptorcat
+- Raptorshark
+- Rabtor
+- Ribbit
+- Sparrow-raptor
+- Squirpy
+- Waterottermolpy
+- Wolpy
+- Zemolp
 
 ## Bag type list
 - Shopping bag
@@ -169,3 +177,4 @@ A molpy is an instance of a breed. This affects the molpy's stats and abilities 
 - http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ could be hand
 - http://django-user-accounts.readthedocs.org/en/latest/ for user accounts
 - http://www.dajaxproject.com/ for ajax: looks pretty awesome!
+- http://djangofriendly.com/hosts/ hosting: webfaction sounds good (and has github support too, lol, that site happens to be hosted on it :D)
