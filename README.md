@@ -230,11 +230,12 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://django-user-accounts.readthedocs.org/en/latest/ for user accounts
 - http://www.dajaxproject.com/ for ajax: looks pretty awesome!
 - http://djangofriendly.com/hosts/ hosting: webfaction sounds good (and has github support too, lol, that site happens to be hosted on it :D)
-- dajax/dajaxice for django+ajax
+- http://www.dajaxproject.com/ dajax/dajaxice for django+ajax
 
 ## Other tech links
 
 - https://help.ubuntu.com/community/UsingTheTerminal because I'm an utter noob
+- http://packages.ubuntu.com/lucid/vcs/mercurial-git because fagungis wants to use mercurial but I'm using github
 
 ## Progress
 
