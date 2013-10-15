@@ -12,6 +12,11 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.007
+- progress section
+- todo secton
+- committing from ubuntu!
+
 ### 0.006
 - more molpy names
 
@@ -225,7 +230,42 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://django-user-accounts.readthedocs.org/en/latest/ for user accounts
 - http://www.dajaxproject.com/ for ajax: looks pretty awesome!
 - http://djangofriendly.com/hosts/ hosting: webfaction sounds good (and has github support too, lol, that site happens to be hosted on it :D)
+- dajax/dajaxice for django+ajax
 
 ## Other tech links
 
 - https://help.ubuntu.com/community/UsingTheTerminal because I'm an utter noob
+
+## Progress
+
+- Ubuntu installed in VirtualBox
+- Git installed and this repo cloned
+- Installed pip and django-fagungis
+
+## Todo
+
+### Basic server stuff
+
+- Install mercurial-git (I think)
+- Learn how django-fagungis works with the repo
+- Configure django-fagunis
+- Make django-fagunis work with postgresql (assuming it can)
+- Figure out directory structure
+- Probably recreate repo with correct structure
+- Hopefully by this point I have an empty django project I can get a basic hello world working in
+- Figure out deployment process
+- Get dajax going
+
+### Actual project stuff
+
+- Build a more complete conceptual object model
+- Plan forms and views
+- Build django python object structure
+- Create views and forms
+- Use admin interface to start adding stuff (molpy breeds! bags!) to database
+- Figure out how to schedule tasks
+- Write the game logic
+- Style stuff better
+- Hopefully it's getting close to something OTTers can use by this point and there are some remaining who haven't been basemented
+
+
