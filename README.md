@@ -187,6 +187,9 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Shoulder bag
 - Sling bag
 - Weekend bag
+- Gift bag
+- Chip bag (Doritos!)
+- Wine bag
 
 See http://bagbible.com/blog/bag-101/types-of-bags/ and http://en.wikipedia.org/wiki/Bag
 
@@ -222,3 +225,7 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://django-user-accounts.readthedocs.org/en/latest/ for user accounts
 - http://www.dajaxproject.com/ for ajax: looks pretty awesome!
 - http://djangofriendly.com/hosts/ hosting: webfaction sounds good (and has github support too, lol, that site happens to be hosted on it :D)
+
+## Other tech links
+
+- https://help.ubuntu.com/community/UsingTheTerminal because I'm an utter noob
