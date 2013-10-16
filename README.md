@@ -102,6 +102,7 @@ For the server scripting, I'll use Python. It looks like Django is worth using. 
 - Facebug
 - Flutterbee
 - Foxmolpy
+- Goatpy
 - Gatorraptor
 - Geckolpy
 - Guineamolp
@@ -238,12 +239,15 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://www.dajaxproject.com/ for ajax: looks pretty awesome!
 - http://djangofriendly.com/hosts/ hosting: webfaction sounds good (and has github support too, lol, that site happens to be hosted on it :D)
 - http://www.dajaxproject.com/ dajax/dajaxice for django+ajax
+- http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html for celery
 
 ## Other tech links
 
 - https://help.ubuntu.com/community/UsingTheTerminal because I'm an utter noob
 - http://packages.ubuntu.com/lucid/vcs/mercurial-git because fagungis wants to use mercurial but I'm using github
 - http://www.virtualenv.org/en/latest/ source bin/activate    deactivate
+- to check nginx status /etc/init.d/nginx status
+- http://www.celeryproject.org/ celery does async task/jobj queue stuff, including scheduling. written in Python!
 
 ## Progress
 
