@@ -236,6 +236,7 @@ Basically stuff about Django and deployment and stuff to use it with
 
 - https://help.ubuntu.com/community/UsingTheTerminal because I'm an utter noob
 - http://packages.ubuntu.com/lucid/vcs/mercurial-git because fagungis wants to use mercurial but I'm using github
+- http://www.virtualenv.org/en/latest/ source bin/activate    deactivate
 
 ## Progress
 
