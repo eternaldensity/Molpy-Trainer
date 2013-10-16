@@ -12,6 +12,9 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.009
+- wooo lots of progress
+
 ### 0.008
 - more progress
 - changing how I'm setting server stuff up a little
@@ -249,16 +252,18 @@ Basically stuff about Django and deployment and stuff to use it with
 - Installed pip and django-fagungis
 - Decided django-fagungis is too confusing for me and I'd better manually install stuff (see link marked 'am following this' above)
 - Got django and postgresql working
-- gunicorn seems to be working but I'm not sure if it's actually doing anything useful as I can't determine what port it's serving
+- gunicorn seems to be working
+- Yes it was working, it just needed nginx to actually send requests to it
+- supervisor working (it starts gunicorn automatically, with all the right settings to start django)
+- nginx is now working! had to copy the config into the sites-enabled directory rather than symlink the directories cos it choked on the directory. Or maybe I can symlink the file?
 
 ## Todo
 
 ### Basic server stuff
 
-- figure out gunicorn
-- supervisor and nginx
 - celery?
 - Figure out deployment process
+- Maybe move into root/webapps rather than home/ed/webapps if I can figure out why pip wouldn't install django from there
 - Get dajax going
 
 ### Actual project stuff
