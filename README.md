@@ -12,6 +12,10 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.008
+- more progress
+- changing how I'm setting server stuff up a little
+
 ### 0.007
 - progress section
 - todo secton
@@ -223,7 +227,7 @@ Basically stuff about Django and deployment and stuff to use it with
 - https://docs.djangoproject.com/en/1.5/topics/templates/
 - https://docs.djangoproject.com/en/1.5/topics/db/models/
 - https://medium.com/cs-math/f29f6080c131 lots of useful info (11 things about django dev)
-- http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ could be handy
+- http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ (am following this)
 - http://goodcode.io/blog/django-nginx-gunicorn/ another about setting stuff up
 - http://bailey.st/blog/2012/05/02/ubuntu-django-postgresql-and-nginx-a-rock-solid-web-stack/ looks about right (though a little older)
 - https://bitbucket.org/DNX/django-fagungis/ should help with the above
@@ -243,18 +247,17 @@ Basically stuff about Django and deployment and stuff to use it with
 - Ubuntu installed in VirtualBox
 - Git installed and this repo cloned
 - Installed pip and django-fagungis
+- Decided django-fagungis is too confusing for me and I'd better manually install stuff (see link marked 'am following this' above)
+- Got django and postgresql working
+- gunicorn seems to be working but I'm not sure if it's actually doing anything useful as I can't determine what port it's serving
 
 ## Todo
 
 ### Basic server stuff
 
-- Install mercurial-git (I think)
-- Learn how django-fagungis works with the repo
-- Configure django-fagunis
-- Make django-fagunis work with postgresql (assuming it can)
-- Figure out directory structure
-- Probably recreate repo with correct structure
-- Hopefully by this point I have an empty django project I can get a basic hello world working in
+- figure out gunicorn
+- supervisor and nginx
+- celery?
 - Figure out deployment process
 - Get dajax going
 
