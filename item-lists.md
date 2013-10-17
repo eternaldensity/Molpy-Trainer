@@ -1,0 +1,124 @@
+# Molpy Trainer
+
+xkcd: 1190: Time: Another Game
+
+## Molpy Name List
+- Antelopey
+- Badgermolp
+- Bearraptor
+- Beesnake
+- Camolpy (camel)
+- Centimolpy
+- Chipmonpy
+- Chirpy
+- Chupamolpy 
+- Deerpy
+- Dolphy
+- Dragonflopy
+- Ecolipy (E. coli)
+- Facebug
+- Flutterbee
+- Foxmolpy
+- Goatpy
+- Gatorraptor
+- Geckolpy
+- Guineamolp
+- Hamply
+- Kangamolp
+- Keyboard
+- Lizmolp
+- Manapy (manatee)
+- Meowlpy
+- Millimolpy
+- Molpanzee
+- Molpanda
+- Molpbear
+- Molpicoot
+- Molephant
+- Molmmoth
+- Molmot (marmot)
+- Molpguin
+- Molphish
+- Molpidillo
+- Molpouse
+- Molpossum
+- Molpy
+- Molpybara
+- Molpydile
+- Molpyguana
+- Molpymundi (coatimundi)
+- Molpysnake
+- Moltise (tortois)
+- Monkeymolp
+- Moopy (cow)
+- Moosepy
+- Murtle
+- Neckpy (giraffe)
+- Orcaraptor
+- Owlpy
+- Pricklymolp
+- Quackmolpy
+- Rabtor
+- Raptor
+- Raptorcat
+- Raptorshark
+- Ratpy
+- Rhrinocerolpy
+- Ribbit
+- Sealpy
+- Seawolpy
+- Slowwormolpy
+- Skunkpy
+- Slothpy
+- Sparrow-raptor
+- Squirpy
+- Trilobolpy
+- Viperraptor
+- Wallapy
+- Waterottermolpy
+- Wolpy (dog)
+- Woolpy (sheep)
+- Wormolpy
+- Zemolp (zebra)
+
+## Bag type list
+- Shopping bag
+- Paper bag
+- Hessian bag
+- Library bag
+- Sports bag
+- Lunch bag
+- Plastic bag
+- Coma bag
+- Handbag
+- Backpack
+- Duffle bag
+- Antistatic bag
+- Bin bag
+- Burn bag
+- Diplomatic bag
+- Messenger bag
+- Popcorn bag
+- Tea bag
+- Punching bag
+- Airbag
+- Body bag
+- Travel bag
+- Tote bag
+- Thermal bag
+- Bowling bag
+- Baguette bag
+- Bucket bag
+- Clutch bag
+- Doctor's bag
+- Envelope bag
+- Feed bag
+- Saddle bag
+- Shoulder bag
+- Sling bag
+- Weekend bag
+- Gift bag
+- Chip bag (Doritos!)
+- Wine bag
+
+See http://bagbible.com/blog/bag-101/types-of-bags/ and http://en.wikipedia.org/wiki/Bag

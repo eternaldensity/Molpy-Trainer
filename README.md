@@ -12,6 +12,11 @@ For personal amusement only.
 
 ## Changelog
 
+### 0.0091
+- split lists into separate file
+- unprogress
+- more links (including stuff I need to reinstall)
+
 ### 0.009
 - wooo lots of progress
 
@@ -85,127 +90,6 @@ There won't be so much javascript since the game logic will be carried out serve
 
 For the server scripting, I'll use Python. It looks like Django is worth using. (With postgresql, Gunicorn and NGINX)
 
-## Molpy Name List
-- Antelopey
-- Badgermolp
-- Bearraptor
-- Beesnake
-- Camolpy (camel)
-- Centimolpy
-- Chipmonpy
-- Chirpy
-- Chupamolpy 
-- Deerpy
-- Dolphy
-- Dragonflopy
-- Ecolipy (E. coli)
-- Facebug
-- Flutterbee
-- Foxmolpy
-- Goatpy
-- Gatorraptor
-- Geckolpy
-- Guineamolp
-- Hamply
-- Kangamolp
-- Keyboard
-- Lizmolp
-- Manapy (manatee)
-- Meowlpy
-- Millimolpy
-- Molpanzee
-- Molpanda
-- Molpbear
-- Molpicoot
-- Molephant
-- Molmmoth
-- Molmot (marmot)
-- Molpguin
-- Molphish
-- Molpidillo
-- Molpouse
-- Molpossum
-- Molpy
-- Molpybara
-- Molpydile
-- Molpyguana
-- Molpymundi (coatimundi)
-- Molpysnake
-- Moltise (tortois)
-- Monkeymolp
-- Moopy (cow)
-- Moosepy
-- Murtle
-- Neckpy (giraffe)
-- Orcaraptor
-- Owlpy
-- Pricklymolp
-- Quackmolpy
-- Rabtor
-- Raptor
-- Raptorcat
-- Raptorshark
-- Ratpy
-- Rhrinocerolpy
-- Ribbit
-- Sealpy
-- Seawolpy
-- Slowwormolpy
-- Skunkpy
-- Slothpy
-- Sparrow-raptor
-- Squirpy
-- Trilobolpy
-- Viperraptor
-- Wallapy
-- Waterottermolpy
-- Wolpy (dog)
-- Woolpy (sheep)
-- Wormolpy
-- Zemolp (zebra)
-
-## Bag type list
-- Shopping bag
-- Paper bag
-- Hessian bag
-- Library bag
-- Sports bag
-- Lunch bag
-- Plastic bag
-- Coma bag
-- Handbag
-- Backpack
-- Duffle bag
-- Antistatic bag
-- Bin bag
-- Burn bag
-- Diplomatic bag
-- Messenger bag
-- Popcorn bag
-- Tea bag
-- Punching bag
-- Airbag
-- Body bag
-- Travel bag
-- Tote bag
-- Thermal bag
-- Bowling bag
-- Baguette bag
-- Bucket bag
-- Clutch bag
-- Doctor's bag
-- Envelope bag
-- Feed bag
-- Saddle bag
-- Shoulder bag
-- Sling bag
-- Weekend bag
-- Gift bag
-- Chip bag (Doritos!)
-- Wine bag
-
-See http://bagbible.com/blog/bag-101/types-of-bags/ and http://en.wikipedia.org/wiki/Bag
-
 ## Object Model
 
 Each User will be associated with 1 OTTer (trainer)
@@ -248,6 +132,10 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://www.virtualenv.org/en/latest/ source bin/activate    deactivate
 - to check nginx status /etc/init.d/nginx status
 - http://www.celeryproject.org/ celery does async task/jobj queue stuff, including scheduling. written in Python!
+- http://www.omgchrome.com/install-google-chrome-in-ubuntu-13-10/ because a chrome dependency is missing
+- http://www.perseosblog.com/en/posts/giggle-an-excellent-gui-client-for-git/ 
+- http://git-cola.github.io/share/doc/git-cola/html/index.html
+- https://www.virtualbox.org/ticket/11750 and https://forums.virtualbox.org/viewtopic.php?f=7&t=38140&p=174262#p174262 are what happened to my VM
 
 ## Progress
 
@@ -260,11 +148,13 @@ Basically stuff about Django and deployment and stuff to use it with
 - Yes it was working, it just needed nginx to actually send requests to it
 - supervisor working (it starts gunicorn automatically, with all the right settings to start django)
 - nginx is now working! had to copy the config into the sites-enabled directory rather than symlink the directories cos it choked on the directory. Or maybe I can symlink the file?
+- vm wasn't actually saving properly after I started making snapsshots, so I need to go back to step 2
 
 ## Todo
 
 ### Basic server stuff
 
+- reinstall git, django, postgresql, gunicorn, nginx, and supervisor
 - celery?
 - Figure out deployment process
 - Maybe move into root/webapps rather than home/ed/webapps if I can figure out why pip wouldn't install django from there
