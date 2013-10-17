@@ -136,6 +136,7 @@ Basically stuff about Django and deployment and stuff to use it with
 - http://www.perseosblog.com/en/posts/giggle-an-excellent-gui-client-for-git/ 
 - http://git-cola.github.io/share/doc/git-cola/html/index.html
 - https://www.virtualbox.org/ticket/11750 and https://forums.virtualbox.org/viewtopic.php?f=7&t=38140&p=174262#p174262 are what happened to my VM
+- http://www.omgubuntu.co.uk/2012/11/how-to-install-a-dedicated-amazon-shopping-lens-in-ubuntu to fix the annoying thing in ubuntu
 
 ## Progress
 
