@@ -116,6 +116,7 @@ Basically stuff about Django and deployment and stuff to use it with
 - https://docs.djangoproject.com/en/1.5/topics/db/models/
 - https://medium.com/cs-math/f29f6080c131 lots of useful info (11 things about django dev)
 - http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/ (am following this)
+- http://mytechtravails.wordpress.com/2013/05/10/installing-django-ngnix-gunicorn-on-amazon-ec2-ubuntu-12-04/ the same general thing as above on Amazon EC2
 - http://goodcode.io/blog/django-nginx-gunicorn/ another about setting stuff up
 - http://bailey.st/blog/2012/05/02/ubuntu-django-postgresql-and-nginx-a-rock-solid-web-stack/ looks about right (though a little older)
 - https://bitbucket.org/DNX/django-fagungis/ should help with the above
@@ -150,12 +151,16 @@ Basically stuff about Django and deployment and stuff to use it with
 - supervisor working (it starts gunicorn automatically, with all the right settings to start django)
 - nginx is now working! had to copy the config into the sites-enabled directory rather than symlink the directories cos it choked on the directory. Or maybe I can symlink the file?
 - vm wasn't actually saving properly after I started making snapsshots, so I need to go back to step 2
+- reinstalled most stuff, using /webapps/ directory
+- most stuff is working but I can't seem to get gunicorn to run for a different user even though it looks like the permissions should work
+- even with rebooting
+- and now nginx won't write to the gunicorn socket no matter what I can think of trying, which is weird
 
 ## Todo
 
 ### Basic server stuff
 
-- reinstall git, django, postgresql, gunicorn, nginx, and supervisor
+- get nginx writing to gunicorn socket: fix permissions
 - celery?
 - Figure out deployment process
 - Maybe move into root/webapps rather than home/ed/webapps if I can figure out why pip wouldn't install django from there
