@@ -155,19 +155,16 @@ Basically stuff about Django and deployment and stuff to use it with
 - most stuff is working but I can't seem to get gunicorn to run for a different user even though it looks like the permissions should work
 - even with rebooting
 - and now nginx won't write to the gunicorn socket no matter what I can think of trying, which is weird
+- okay I had to put web-data in my group which I didn't really want to do
+- now also installed django-daxaxice, django-dajax and django-celery
 
 ## Todo
 
-### Basic server stuff
 
-- get nginx writing to gunicorn socket: fix permissions
-- celery?
-- Figure out deployment process
-- Maybe move into root/webapps rather than home/ed/webapps if I can figure out why pip wouldn't install django from there
-- Get dajax going
 
 ### Actual project stuff
 
+- get my current setup into git
 - Build a more complete conceptual object model
 - Plan forms and views
 - Build django python object structure
