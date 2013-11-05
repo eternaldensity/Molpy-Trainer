@@ -22,6 +22,7 @@ xkcd: 1190: Time: Another Game
 - Goatpy
 - Gatorraptor
 - Geckolpy
+- Groundmolp
 - Guineamolp
 - Hamply
 - Kangamolp
@@ -33,6 +34,7 @@ xkcd: 1190: Time: Another Game
 - Molpanzee
 - Molpanda
 - Molpbear
+- Molphin
 - Molpicoot
 - Molephant
 - Molmmoth
